@@ -1,8 +1,30 @@
 aid: vero-software
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/vero-software.png
 name: Vero Software
-description: Vero Software is a company surfaced as a portfolio company of battery-ventures and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Vero Software is a developer of CAD/CAM software for manufacturing,
+  headquartered in the United Kingdom and part of Hexagon's Manufacturing
+  Intelligence division (Production Software). Its portfolio spans
+  computer-aided manufacturing across metalworking, sheet metal, stone, and
+  woodworking, with long-established desktop applications such as Alphacam,
+  Cabinet Vision, Edgecam, Radan, SURFCAM, VISI, WorkNC, WorkXplore, Machining
+  STRATEGIST, and PEPS. These are primarily installed engineering and CNC
+  programming products rather than web services; as of this enrichment pass the
+  company does not publish a public web API, developer portal, or SDK, and the
+  verosoftware.com domain now redirects to Hexagon Manufacturing Intelligence
+  marketing. Surfaced as a portfolio company of Battery Ventures and profiled in
+  the API Evangelist network.
 url: https://raw.githubusercontent.com/api-evangelist/vero-software/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,12 +34,30 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- CAD
+- CAM
+- Manufacturing
+- Engineering Software
+- Machining
+- CNC
+- Woodworking
+- Sheet Metal
 apis: []
+common:
+- type: DomainSecurity
+  url: security/vero-software-domain-security.yml
+- type: Website
+  url: https://www.verosoftware.com
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
